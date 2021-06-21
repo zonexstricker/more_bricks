@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "morebricks:cinder_brick"
+    },
+    "result": "morebricks:cinder_toffee",
+    "experience": 0.35,
+    "cookingtime": 50
+  }
+  

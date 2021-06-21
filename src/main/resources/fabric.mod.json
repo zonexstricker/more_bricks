@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "morebricks",
+  "version": "${version}",
+
+  "name": "More Bricks!",
+  "description": "Adds more bricks to minecraft and other related blocks and materials!",
+  "authors": [
+    "zonexstricker"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC BY-SA",
+  "icon": "assets/morebricks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "zonexstricker.more.bricks.MoreBricks"
+    ]
+  },
+  "mixins": [
+    "morebricks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
