@@ -13,7 +13,7 @@
     "sources": ""
   },
 
-  "license": "CC BY-SA",
+  "license": "GPL-3.0",
   "icon": "assets/morebricks/icon.png",
 
   "environment": "*",
