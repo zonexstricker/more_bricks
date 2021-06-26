@@ -4,6 +4,10 @@
     "item.morebricks.cinder_bricks": "Cinder Bricks",
     "item.morebricks.brick_former": "Brick Former",
     "block.morebricks.cinder_bricks": "Cinder Bricks",
-    "block.morebricks.brick_former": "Brick Former"
+    "block.morebricks.brick_former": "Brick Former",
+    "block.morebricks.sand_lime_bricks": "Sand Lime Bricks",
+    "block.morebricks.yellow_sand_lime_bricks": "Yellow Sand Lime Bricks",
+    "block.morebricks.dark_grey_sand_lime_bricks": "DarkGrey Sand Lime Bricks",
+    "block.morebricks.light_grey_sand_lime_bricks": "Light Grey Sand Lime Bricks"
 
 }
