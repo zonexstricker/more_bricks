@@ -17,6 +17,10 @@ import net.minecraft.util.registry.Registry;
 public class MoreBricks implements ModInitializer {
 
     public static final Item CINDER_BRICK = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item SAND_LIME_BRICK = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item DARK_GREY_SAND_LIME_BRICK = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item LIGHT_GREY_SAND_LIME_BRICK = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item YELLOW_SAND_LIME_BRICK = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Block CINDER_BRICKS = new Block(FabricBlockSettings.of(Material.STONE).strength(15.0F, 60.0F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
     public static final Block SAND_LIME_BRICKS = new Block(FabricBlockSettings.of(Material.STONE).strength(15.0F, 60.0F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
     public static final Block DARK_GREY_SAND_LIME_BRICKS = new Block(FabricBlockSettings.of(Material.STONE).strength(15.0F, 60.0F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
@@ -30,6 +34,10 @@ public class MoreBricks implements ModInitializer {
 
 
         Registry.register(Registry.ITEM, new Identifier("morebricks", "cinder_brick"), CINDER_BRICK);
+        Registry.register(Registry.ITEM, new Identifier("morebricks", "dark_grey_sand_lime_brick"), DARK_GREY_SAND_LIME_BRICK);
+        Registry.register(Registry.ITEM, new Identifier("morebricks", "light_grey_sand_lime_brick"), LIGHT_GREY_SAND_LIME_BRICK);
+        Registry.register(Registry.ITEM, new Identifier("morebricks", "yellow_sand_lime_brick"), YELLOW_SAND_LIME_BRICK);
+        Registry.register(Registry.ITEM, new Identifier("morebricks", "sand_lime_brick"), SAND_LIME_BRICK);
         Registry.register(Registry.BLOCK, new Identifier("morebricks", "cinder_bricks"), CINDER_BRICKS);
         Registry.register(Registry.BLOCK, new Identifier("morebricks", "sand_lime_bricks"), SAND_LIME_BRICKS);
         Registry.register(Registry.BLOCK, new Identifier("morebricks", "yellow_sand_lime_bricks"), YELLOW_SAND_LIME_BRICKS);

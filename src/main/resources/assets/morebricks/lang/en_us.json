@@ -7,7 +7,10 @@
     "block.morebricks.brick_former": "Brick Former",
     "block.morebricks.sand_lime_bricks": "Sand Lime Bricks",
     "block.morebricks.yellow_sand_lime_bricks": "Yellow Sand Lime Bricks",
-    "block.morebricks.dark_grey_sand_lime_bricks": "DarkGrey Sand Lime Bricks",
-    "block.morebricks.light_grey_sand_lime_bricks": "Light Grey Sand Lime Bricks"
-
+    "block.morebricks.dark_grey_sand_lime_bricks": "Dark Grey Sand Lime Bricks",
+    "block.morebricks.light_grey_sand_lime_bricks": "Light Grey Sand Lime Bricks",
+    "item.morebricks.light_grey_sand_lime_brick": "Light Grey Sand Lime Brick",
+    "item.morebricks.yellow_sand_lime_brick": "Yellow Sand Lime Brick",
+    "item.morebricks.dark_grey_sand_lime_brick": "Dark Grey Sand Lime Brick",
+    "item.morebricks.sand_lime_brick": "Sand Lime Brick"
 }

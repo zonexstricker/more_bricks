@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "morebricks:item/dark_grey_sand_lime_brick"
+    }
+}
