@@ -1,0 +1,19 @@
+{"type": "minecraft:crafting_shaped",
+"pattern": [
+"###",
+"#X#",
+"###"
+],
+"key": {
+"#": {
+"item": "morebricks:sand_lime_brick"
+},
+"X": {
+"item": "minecraft:light_gray_dye"
+}
+},
+"result": {
+"item": "morebricks:light_grey_sand_lime_brick",
+"count": 8
+}
+}
